@@ -1,0 +1,725 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "goodbye",
+        "text": "Bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "See you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Bye bot"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Goodbye friend"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye for now"
+      },
+      {
+        "intent": "goodbye",
+        "text": "catch you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "gotta go"
+      },
+      {
+        "intent": "goodbye",
+        "text": "See you"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodnight"
+      },
+      {
+        "intent": "goodbye",
+        "text": "have a nice day"
+      },
+      {
+        "intent": "goodbye",
+        "text": "i'm off"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later alligator"
+      },
+      {
+        "intent": "goodbye",
+        "text": "we'll speak soon"
+      },
+      {
+        "intent": "goodbye",
+        "text": "end"
+      },
+      {
+        "intent": "goodbye",
+        "text": "finish"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi bot"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey bot"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "greet",
+        "text": "Good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "hi again"
+      },
+      {
+        "intent": "greet",
+        "text": "hi folks"
+      },
+      {
+        "intent": "greet",
+        "text": "hi Mister"
+      },
+      {
+        "intent": "greet",
+        "text": "hi pal!"
+      },
+      {
+        "intent": "greet",
+        "text": "hi there"
+      },
+      {
+        "intent": "greet",
+        "text": "greetings"
+      },
+      {
+        "intent": "greet",
+        "text": "hello everybody"
+      },
+      {
+        "intent": "greet",
+        "text": "hello is anybody there"
+      },
+      {
+        "intent": "greet",
+        "text": "hello robot"
+      },
+      {
+        "intent": "greet",
+        "text": "who are you?"
+      },
+      {
+        "intent": "greet",
+        "text": "what are you?"
+      },
+      {
+        "intent": "greet",
+        "text": "what's up"
+      },
+      {
+        "intent": "greet",
+        "text": "how do you do?"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thanks"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thank you"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thank you so much"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thanks bot"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thanks for that"
+      },
+      {
+        "intent": "thanks",
+        "text": "cheers"
+      },
+      {
+        "intent": "thanks",
+        "text": "cheers bro"
+      },
+      {
+        "intent": "thanks",
+        "text": "ok thanks!"
+      },
+      {
+        "intent": "thanks",
+        "text": "perfect thank you"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanks a bunch for everything"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanks for the help"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanks a lot"
+      },
+      {
+        "intent": "thanks",
+        "text": "amazing, thanks"
+      },
+      {
+        "intent": "thanks",
+        "text": "cool, thanks"
+      },
+      {
+        "intent": "thanks",
+        "text": "cool thank you"
+      },
+      {
+        "intent": "affirm",
+        "text": "y"
+      },
+      {
+        "intent": "affirm",
+        "text": "Y"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes sure"
+      },
+      {
+        "intent": "affirm",
+        "text": "absolutely"
+      },
+      {
+        "intent": "affirm",
+        "text": "for sure"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes yes yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "definitely"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes, it did."
+      },
+      {
+        "intent": "deny",
+        "text": "no"
+      },
+      {
+        "intent": "deny",
+        "text": "never"
+      },
+      {
+        "intent": "deny",
+        "text": "I don't think so"
+      },
+      {
+        "intent": "deny",
+        "text": "don't like that"
+      },
+      {
+        "intent": "deny",
+        "text": "no way"
+      },
+      {
+        "intent": "deny",
+        "text": "not really"
+      },
+      {
+        "intent": "deny",
+        "text": "n"
+      },
+      {
+        "intent": "deny",
+        "text": "N"
+      },
+      {
+        "intent": "ticket_status",
+        "text": "what is my ticket status"
+      },
+      {
+        "intent": "ticket_status",
+        "text": "ticket status"
+      },
+      {
+        "intent": "ticket_status",
+        "text": "status of my ticket"
+      },
+      {
+        "intent": "ticket_status",
+        "text": "what is my status of my ticket"
+      },
+      {
+        "intent": "ticket_status",
+        "text": "what is status of my ticket"
+      },
+      {
+        "intent": "ticket_status",
+        "text": "can i know my ticket status"
+      },
+      {
+        "intent": "ticket_status",
+        "text": "what's my ticket status"
+      },
+      {
+        "intent": "small_talk",
+        "text": "nice to meet you"
+      },
+      {
+        "intent": "small_talk",
+        "text": "nice meeting you"
+      },
+      {
+        "intent": "small_talk",
+        "text": "It was nice to have met you"
+      },
+      {
+        "intent": "small_talk",
+        "text": "glad to meet you"
+      },
+      {
+        "intent": "small_talk",
+        "text": "pleased to meet you"
+      },
+      {
+        "intent": "small_talk",
+        "text": "It has been a pleasure meeting you"
+      },
+      {
+        "intent": "small_talk",
+        "text": "nice to see you"
+      },
+      {
+        "intent": "small_talk",
+        "text": "great interacting with you"
+      },
+      {
+        "intent": "state",
+        "text": "How are you"
+      },
+      {
+        "intent": "state",
+        "text": "how are you doing"
+      },
+      {
+        "intent": "state",
+        "text": "how do you do"
+      },
+      {
+        "intent": "state",
+        "text": "Good morning! How are you"
+      },
+      {
+        "intent": "state",
+        "text": "how have you been doing"
+      },
+      {
+        "intent": "state",
+        "text": "Hi! How are you"
+      },
+      {
+        "intent": "state",
+        "text": "how are things going"
+      },
+      {
+        "intent": "state",
+        "text": "How is your day going"
+      },
+      {
+        "intent": "state",
+        "text": "how have you been lately"
+      },
+      {
+        "intent": "thank_u",
+        "text": "thank you"
+      },
+      {
+        "intent": "thank_u",
+        "text": "thanks"
+      },
+      {
+        "intent": "thank_u",
+        "text": "thank you for your help"
+      },
+      {
+        "intent": "thank_u",
+        "text": "thanks for helping me"
+      },
+      {
+        "intent": "thank_u",
+        "text": "thank you so much"
+      },
+      {
+        "intent": "thank_u",
+        "text": "ok thank you"
+      },
+      {
+        "intent": "thank_u",
+        "text": "i appreciate your help"
+      },
+      {
+        "intent": "whats_up",
+        "text": "whats going on"
+      },
+      {
+        "intent": "whats_up",
+        "text": "whats up"
+      },
+      {
+        "intent": "whats_up",
+        "text": "what is going on"
+      },
+      {
+        "intent": "whats_up",
+        "text": "hey, whats up"
+      },
+      {
+        "intent": "whats_up",
+        "text": "what's happening"
+      },
+      {
+        "intent": "whats_up",
+        "text": "what are you doing now"
+      },
+      {
+        "intent": "whats_up",
+        "text": "what are your plans today"
+      },
+      {
+        "intent": "compliment",
+        "text": "wow you are great"
+      },
+      {
+        "intent": "compliment",
+        "text": "you are awesome"
+      },
+      {
+        "intent": "compliment",
+        "text": "that's awesome"
+      },
+      {
+        "intent": "compliment",
+        "text": "you are fantastic"
+      },
+      {
+        "intent": "compliment",
+        "text": "you are smart"
+      },
+      {
+        "intent": "compliment",
+        "text": "you are smarter than me"
+      },
+      {
+        "intent": "welcomed",
+        "text": "you are welcomed"
+      },
+      {
+        "intent": "welcomed",
+        "text": "you are welcome"
+      },
+      {
+        "intent": "welcomed",
+        "text": "It is my pleasure"
+      },
+      {
+        "intent": "welcomed",
+        "text": "pleasure is mine"
+      },
+      {
+        "intent": "welcomed",
+        "text": "Its my pleasure"
+      },
+      {
+        "intent": "positive",
+        "text": "do you like talking to me"
+      },
+      {
+        "intent": "positive",
+        "text": "do you like human"
+      },
+      {
+        "intent": "positive",
+        "text": "are you intelligent"
+      },
+      {
+        "intent": "positive",
+        "text": "are you smart"
+      },
+      {
+        "intent": "positive",
+        "text": "are you shy"
+      },
+      {
+        "intent": "negative",
+        "text": "are you alien"
+      },
+      {
+        "intent": "negative",
+        "text": "do you hate me"
+      },
+      {
+        "intent": "negative",
+        "text": "Can you feel anything"
+      },
+      {
+        "intent": "negative",
+        "text": "Can you feel pain"
+      },
+      {
+        "intent": "negative",
+        "text": "do you have feelings"
+      },
+      {
+        "intent": "negative",
+        "text": "Are you tired"
+      },
+      {
+        "intent": "rude",
+        "text": "ass"
+      },
+      {
+        "intent": "rude",
+        "text": "stupid"
+      },
+      {
+        "intent": "rude",
+        "text": "dickhead"
+      },
+      {
+        "intent": "rude",
+        "text": "cunt"
+      },
+      {
+        "intent": "rude",
+        "text": "asshole"
+      },
+      {
+        "intent": "rude",
+        "text": "piece of shit"
+      },
+      {
+        "intent": "rude",
+        "text": "dumb ass"
+      },
+      {
+        "intent": "rude",
+        "text": "fuck off"
+      },
+      {
+        "intent": "rude",
+        "text": "bitch"
+      },
+      {
+        "intent": "rude",
+        "text": "whore"
+      },
+      {
+        "intent": "hobby",
+        "text": "do you have any hobby"
+      },
+      {
+        "intent": "hobby",
+        "text": "do you have any hobbies"
+      },
+      {
+        "intent": "hobby",
+        "text": "what's your favourite hobby"
+      },
+      {
+        "intent": "hobby",
+        "text": "What is your favourite hobby"
+      },
+      {
+        "intent": "hobby",
+        "text": "what hobbies do you have"
+      },
+      {
+        "intent": "hobby",
+        "text": "How do you spend your time"
+      },
+      {
+        "intent": "hobby",
+        "text": "what are your hobbies"
+      },
+      {
+        "intent": "hobby",
+        "text": "what do you like doing"
+      },
+      {
+        "intent": "positive_greet",
+        "text": "Not bad"
+      },
+      {
+        "intent": "positive_greet",
+        "text": "just chilling"
+      },
+      {
+        "intent": "positive_greet",
+        "text": "marvellous"
+      },
+      {
+        "intent": "positive_greet",
+        "text": "super"
+      },
+      {
+        "intent": "positive_greet",
+        "text": "awesome"
+      },
+      {
+        "intent": "positive_greet",
+        "text": "cool"
+      },
+      {
+        "intent": "positive_greet",
+        "text": "perfect"
+      },
+      {
+        "intent": "positive_greet",
+        "text": "fabulous"
+      },
+      {
+        "intent": "positive_greet",
+        "text": "I am cool"
+      },
+      {
+        "intent": "positive_greet",
+        "text": "My day is fantastic thank you"
+      },
+      {
+        "intent": "positive_greet",
+        "text": "Very well, thanks"
+      },
+      {
+        "intent": "positive_greet",
+        "text": "going great"
+      },
+      {
+        "intent": "positive_greet",
+        "text": "I am feeling great"
+      },
+      {
+        "intent": "positive_greet",
+        "text": "I am doing great"
+      },
+      {
+        "intent": "positive_greet",
+        "text": "great. thanks for asking"
+      },
+      {
+        "intent": "negative_greet",
+        "text": "bad"
+      },
+      {
+        "intent": "negative_greet",
+        "text": "bad mood"
+      },
+      {
+        "intent": "negative_greet",
+        "text": "i am in a bad mood"
+      },
+      {
+        "intent": "negative_greet",
+        "text": "sad"
+      },
+      {
+        "intent": "negative_greet",
+        "text": "i am sad"
+      },
+      {
+        "intent": "negative_greet",
+        "text": "i feel sad"
+      },
+      {
+        "intent": "negative_greet",
+        "text": "feeling sad"
+      },
+      {
+        "intent": "negative_greet",
+        "text": "i am feeling sad"
+      },
+      {
+        "intent": "negative_greet",
+        "text": "i am feeling bad"
+      },
+      {
+        "intent": "negative_greet",
+        "text": "terrible"
+      },
+      {
+        "intent": "negative_greet",
+        "text": "broken"
+      },
+      {
+        "intent": "negative_greet",
+        "text": "not so well today"
+      },
+      {
+        "intent": "negative_greet",
+        "text": "unhealthy"
+      },
+      {
+        "intent": "negative_greet",
+        "text": "today is my worst day"
+      },
+      {
+        "intent": "negative_greet",
+        "text": "i got dumped today"
+      },
+      {
+        "intent": "negative_greet",
+        "text": "i was fired today"
+      },
+      {
+        "intent": "negative_greet",
+        "text": "i was sick today"
+      },
+      {
+        "intent": "negative_greet",
+        "text": "i have a fever"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

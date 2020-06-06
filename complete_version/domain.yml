@@ -1,0 +1,117 @@
+actions:
+- utter_greet
+- utter_did_that_help
+- utter_goodbye
+- utter_default
+- utter_gratitude
+- utter_ask_again
+- utter_ticket_status
+- utter_ticket_status_not_found
+- utter_ticket_status_found
+- utter_small_talk
+- utter_whats_up
+- utter_state
+- utter_positive
+- utter_negative
+- utter_laugh
+- utter_rude
+- utter_apologies
+- utter_compliment
+- utter_welcomed
+- utter_thank_u
+- utter_positive_greet
+- utter_negative_greet
+
+intents:
+- goodbye
+- greet
+- thanks
+- current_matches
+- affirm
+- deny
+- ticket_status
+- whats_up
+- compliment
+- welcomed
+- positive
+- negative
+- rude
+- hobby
+- thank_u
+- state
+- small_talk
+- positive_greet
+- negative_greet
+
+
+templates:
+  utter_greet:
+    - 'Hello! <i class="em em-smiley"></i>'
+    - 'Hi! <i class="em em-slightly_smiling_face"></i>'
+    - 'Hey! <i class="em em-smiley"></i>'
+    - 'Greetings! <i class="em em-slightly_smiling_face"></i>'
+    - 'Hey there <i class="em em-smiley"></i>'
+  utter_did_that_help:
+  - text: "Did that help you?"
+  - text: "I hope that solved your query"
+  utter_goodbye:
+    - 'Talk to you later.'
+    - 'Bye bye :('
+    - 'Thank you! Bye!'
+    - 'see ya!'
+  utter_default:
+  - text: "I am sorry, I didn't get that. Could you please repeat your query?"
+  - text: "I am not sure what you are aiming for."
+  utter_gratitude:
+  - text: "Glad that I could be of help to you!\nBye"
+  utter_ask_again:
+  - text: "Okay! Let's start again, please tell me what do you need?"
+  - text: "No issues! Let's try this again.\n Please repeat your query?"
+  utter_ticket_status:
+    - text: "Please enter your ticket ID."
+  action_match_news:
+    - text: "Anything else do you want to know?"
+  utter_ticket_status_not_found:
+    - text: "Didn't found your ticket, could you please create it?"
+  utter_ticket_status_found:
+    - text: "Here's your ticket"
+  utter_rude:
+    - 'Kindly avoid using profane language. <i class="em em-expressionless"></i>'
+
+  utter_apologies:
+    - "That's alright. No worries."
+
+  utter_compliment:
+    - 'Thanks a lot. <i class="em em-smiley"></i>'
+
+  utter_laugh:
+    - 'laughing is good for your health. Keep it up. <i class="em em-innocent"></i>'
+  utter_positive:
+    - "Yes, Of Course"
+    - "Sure"
+    - "absolutely"
+    - "affirmative"
+
+  utter_negative:
+    - "nope"
+    - "nay"
+    - "not likely"
+    - "negative"
+    - "no way"
+  utter_whats_up:
+    - "Nothing much! </br> How have you been."
+  utter_state:
+    - 'I am doing Great. <i class="em em-smiley"></i> </br> How are you ?'
+    - 'Everything is going extremely well. <i class="em em-smiley"></i> </br> How are you ?'
+  utter_small_talk:
+    - 'Nice to meet you too <i class="em em-handshake"></i>'
+    - 'Thank you. It is very nice to meet you as well <i class="em em-handshake"></i>'
+    - 'Am glad to meet you too <i class="em em-handshake"></i>'
+  utter_welcomed:
+    - '<i class="em em-smiley"></i>'
+  utter_thank_u:
+    - 'Its my pleasure. <i class="em em-innocent"></i>'
+  utter_positive_greet:
+    - text: "That's great."
+  utter_negative_greet:
+    - text: 'Sorry to hear that. <i class="em em-pensive"></i></br>  how can I help you today ?'

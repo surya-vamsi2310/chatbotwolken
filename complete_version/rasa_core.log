@@ -1,0 +1,35 @@
+Rasa process starting
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Failed to run custom action 'action_match_news'. Action server responded with a non 200 status code of 404. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 404 Client Error: Not Found for url: http://70d5c9fe.ngrok.io/webhook
+Encountered an exception while running action 'action_match_news'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Failed to run custom action 'action_match_news'. Action server responded with a non 200 status code of 404. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 404 Client Error: Not Found for url: http://70d5c9fe.ngrok.io/webhook
+Encountered an exception while running action 'action_match_news'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Received retry #1 request from slack due to http_timeout
+Rasa process starting
+Rasa process starting
+Rasa process starting
+Added 'SpacyNLP' to component cache. Key 'SpacyNLP-en_core_web_sm'.
+Scheduler started
+/home/shireesh/anaconda3/lib/python3.6/site-packages/dask/dataframe/utils.py:14: FutureWarning: pandas.util.testing is deprecated. Use the functions in the public API at pandas.testing instead.
+  import pandas.util.testing as tm
+
+From /home/shireesh/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+From /home/shireesh/anaconda3/lib/python3.6/site-packages/tensorflow/python/keras/backend.py:4010: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+From /home/shireesh/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+Rasa Core server is up and running on http://localhost:5005
