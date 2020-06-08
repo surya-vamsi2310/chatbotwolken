@@ -1,0 +1,138 @@
+%YAML 1.1
+---
+actions:
+- utter_greet
+- utter_did_that_help
+- utter_goodbye
+- utter_default
+- utter_gratitude
+- utter_ask_again
+- utter_ticket_status
+- utter_ticket_status_not_found
+- utter_ticket_status_found
+- utter_small_talk
+- utter_whats_up
+- utter_state
+- utter_positive
+- utter_negative
+- utter_laugh
+- utter_rude
+- utter_apologies
+- utter_compliment
+- utter_welcomed
+- utter_thank_u
+- utter_positive_greet
+- utter_negative_greet
+config:
+  store_entities_as_slots: true
+entities: []
+forms: []
+intents:
+- goodbye:
+    use_entities: true
+- greet:
+    use_entities: true
+- thanks:
+    use_entities: true
+- current_matches:
+    use_entities: true
+- affirm:
+    use_entities: true
+- deny:
+    use_entities: true
+- ticket_status:
+    use_entities: true
+- whats_up:
+    use_entities: true
+- compliment:
+    use_entities: true
+- welcomed:
+    use_entities: true
+- positive:
+    use_entities: true
+- negative:
+    use_entities: true
+- rude:
+    use_entities: true
+- hobby:
+    use_entities: true
+- thank_u:
+    use_entities: true
+- state:
+    use_entities: true
+- small_talk:
+    use_entities: true
+- positive_greet:
+    use_entities: true
+- negative_greet:
+    use_entities: true
+slots: {}
+templates:
+  action_match_news:
+  - text: Anything else do you want to know?
+  utter_apologies:
+  - text: That's alright. No worries.
+  utter_ask_again:
+  - text: Okay! Let's start again, please tell me what do you need?
+  - text: "No issues! Let's try this again.\n Please repeat your query?"
+  utter_compliment:
+  - text: Thanks a lot. <i class="em em-smiley"></i>
+  utter_default:
+  - text: I am sorry, I didn't get that. Could you please repeat your query?
+  - text: I am not sure what you are aiming for.
+  utter_did_that_help:
+  - text: Did that help you?
+  - text: I hope that solved your query
+  utter_goodbye:
+  - text: Talk to you later.
+  - text: Bye bye :(
+  - text: Thank you! Bye!
+  - text: see ya!
+  utter_gratitude:
+  - text: "Glad that I could be of help to you!\nBye"
+  utter_greet:
+  - text: Hello! <i class="em em-smiley"></i>
+  - text: Hi! <i class="em em-slightly_smiling_face"></i>
+  - text: Hey! <i class="em em-smiley"></i>
+  - text: Greetings! <i class="em em-slightly_smiling_face"></i>
+  - text: Hey there <i class="em em-smiley"></i>
+  utter_laugh:
+  - text: laughing is good for your health. Keep it up. <i class="em em-innocent"></i>
+  utter_negative:
+  - text: nope
+  - text: nay
+  - text: not likely
+  - text: negative
+  - text: no way
+  utter_negative_greet:
+  - text: Sorry to hear that. <i class="em em-pensive"></i></br>  how can I help you
+      today ?
+  utter_positive:
+  - text: Yes, Of Course
+  - text: Sure
+  - text: absolutely
+  - text: affirmative
+  utter_positive_greet:
+  - text: That's great.
+  utter_rude:
+  - text: Kindly avoid using profane language. <i class="em em-expressionless"></i>
+  utter_small_talk:
+  - text: Nice to meet you too <i class="em em-handshake"></i>
+  - text: Thank you. It is very nice to meet you as well <i class="em em-handshake"></i>
+  - text: Am glad to meet you too <i class="em em-handshake"></i>
+  utter_state:
+  - text: I am doing Great. <i class="em em-smiley"></i> </br> How are you ?
+  - text: Everything is going extremely well. <i class="em em-smiley"></i> </br> How
+      are you ?
+  utter_thank_u:
+  - text: Its my pleasure. <i class="em em-innocent"></i>
+  utter_ticket_status:
+  - text: Please enter your ticket ID.
+  utter_ticket_status_found:
+  - text: Here's your ticket
+  utter_ticket_status_not_found:
+  - text: Didn't found your ticket, could you please create it?
+  utter_welcomed:
+  - text: <i class="em em-smiley"></i>
+  utter_whats_up:
+  - text: Nothing much! </br> How have you been.
